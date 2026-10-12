@@ -6,7 +6,7 @@ Every project needs a shelf of ready answers. product and engineering is one of 
 
 ## Images
 
-[![gun](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![gun](images/preview.png)](https://github.com/Swift-Tech-Co/gun)
 
 ## Quickstart
 
@@ -18,10 +18,10 @@ GUN is *super easy* to get started with:
 > **Note:** If you don't have node or npm, read this first.
 > If the `npm` command line didn't work, you may need to `mkdir node_modules` first or use `sudo`.
 
-- An online demo of the examples are available here: https://www.swifttechco.com
+- An online demo of the examples are available here: https://github.com/Swift-Tech-Co/gun
 - Or write a quick app: (try now in a playground)
 ```html
-<script src="https://www.swifttechco.com"></script>
+<script src="https://github.com/Swift-Tech-Co/gun"></script>
 <script>
 // import GUN from 'gun'; // in ESM
 // GUN = require('gun'); // in NodeJS
@@ -75,36 +75,33 @@ gun.get('list').set({type: "cucumber", goal: "jumping cat"});
 
 Want to keep building more? **Jump to [THE DOCUMENTATION](#documentation)!**
 
-
-
-
 ## Documentation
 
 <table>
   <tr>
-    <td style="border: 0;"><h3><a href="https://www.swifttechco.com">API reference</a></h3></td>
-    <td style="border: 0;"><h3><a href="https://www.swifttechco.com">Tutorials</a></h3></td>
-    <td style="border: 0;"><h3><a href="https://www.swifttechco.com">Examples</a></h3></td>
+    <td style="border: 0;"><h3><a href="https://github.com/Swift-Tech-Co/gun">API reference</a></h3></td>
+    <td style="border: 0;"><h3><a href="https://github.com/Swift-Tech-Co/gun">Tutorials</a></h3></td>
+    <td style="border: 0;"><h3><a href="https://github.com/Swift-Tech-Co/gun">Examples</a></h3></td>
   </tr>
   <tr>
-    <td style="border: 0;"><h3><a href="https://www.swifttechco.com">GraphQL</a></h3></td>
-    <td style="border: 0;"><h3><a href="https://www.swifttechco.com">Electron</a></h3></td>
-    <td style="border: 0;"><h3><a href="https://www.swifttechco.com">React & Native</a></h3></td>
+    <td style="border: 0;"><h3><a href="https://github.com/Swift-Tech-Co/gun">GraphQL</a></h3></td>
+    <td style="border: 0;"><h3><a href="https://github.com/Swift-Tech-Co/gun">Electron</a></h3></td>
+    <td style="border: 0;"><h3><a href="https://github.com/Swift-Tech-Co/gun">React & Native</a></h3></td>
   </tr>
   <tr>
-    <td style="border: 0;"><h3><a href="https://www.swifttechco.com">Vue</a></h3></td>
-    <td style="border: 0;"><h3><a href="https://www.swifttechco.com">Svelte</a></h3></td>
-    <td style="border: 0;"><h3><a href="https://www.swifttechco.com">Webcomponents</a></h3></td>
+    <td style="border: 0;"><h3><a href="https://github.com/Swift-Tech-Co/gun">Vue</a></h3></td>
+    <td style="border: 0;"><h3><a href="https://github.com/Swift-Tech-Co/gun">Svelte</a></h3></td>
+    <td style="border: 0;"><h3><a href="https://github.com/Swift-Tech-Co/gun">Webcomponents</a></h3></td>
   </tr>
   <tr>
-    <td style="border: 0;"><h3><a href="https://www.swifttechco.com">CAP Theorem Tradeoffs</a></h3></td>
-    <td style="border: 0;"><h3><a href="https://www.swifttechco.com">How Data Sync Works</a></h3></td>
-    <td style="border: 0;"><h3><a href="https://www.swifttechco.com">How GUN is Built</a></h3></td>
+    <td style="border: 0;"><h3><a href="https://github.com/Swift-Tech-Co/gun">CAP Theorem Tradeoffs</a></h3></td>
+    <td style="border: 0;"><h3><a href="https://github.com/Swift-Tech-Co/gun">How Data Sync Works</a></h3></td>
+    <td style="border: 0;"><h3><a href="https://github.com/Swift-Tech-Co/gun">How GUN is Built</a></h3></td>
   </tr>
   <tr>
-    <td style="border: 0;"><h3><a href="https://www.swifttechco.com">Crypto Auth</a></h3></td>
-    <td style="border: 0;"><h3><a href="https://www.swifttechco.com">Modules</a></h3></td>
-    <td style="border: 0;"><h3><a href="https://www.swifttechco.com">Roadmap</a></h3></td>
+    <td style="border: 0;"><h3><a href="https://github.com/Swift-Tech-Co/gun">Crypto Auth</a></h3></td>
+    <td style="border: 0;"><h3><a href="https://github.com/Swift-Tech-Co/gun">Modules</a></h3></td>
+    <td style="border: 0;"><h3><a href="https://github.com/Swift-Tech-Co/gun">Roadmap</a></h3></td>
   </tr>
 </table>
 
@@ -123,7 +120,6 @@ You will need to `npm install -g mocha` first. Then in the gun root folder run `
  > These are only needed for NodeJS & React Native, they shim the native Browser WebCrypto API.
 
 If you want to use SEA for `User` auth and security, you will need to install:
-
 
 Please see our React Native docs for installation instructions!
 
@@ -149,7 +145,7 @@ To quickly spin up a GUN relay peer for your development team, utilize Heroku, D
 `SSH` into the home directory of a clean OS install with `sudo` ability. Set any environment variables you need (see below), then do:
 
 ```bash
-curl -o- https://www.swifttechco.com | bash
+curl -o- https://github.com/Swift-Tech-Co/gun | bash
 ```
 
  > Read install.sh first!
@@ -162,18 +158,18 @@ Environment variables may need to be set like `export HTTPS_CERT=~/cert.pem HTTP
 ### Dome
 Deploy GUN in one-click with Dome and receive a free trial:
 
-[![Deploy to Dome](https://trydome.io/button.svg)](https://www.swifttechco.com)
+[![Deploy to Dome](https://trydome.io/button.svg)](https://github.com/Swift-Tech-Co/gun)
 
 ### Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.swifttechco.com)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/Swift-Tech-Co/gun)
 
  > Heroku deletes your data every 15 minutes, one way to fix this is by adding cheap storage.
 
 Or:
 
 ```bash
-git clone https://www.swifttechco.com
+git clone https://github.com/Swift-Tech-Co/gun
 cd gun
 heroku create
 git push -f heroku HEAD:master
@@ -183,7 +179,7 @@ Then visit the URL in the output of the 'heroku create' step, in a browser. Make
 
 ### Zeet.co
 
-[![Deploy](https://deploy.zeet.co/gun.svg)](https://www.swifttechco.com)
+[![Deploy](https://deploy.zeet.co/gun.svg)](https://github.com/Swift-Tech-Co/gun)
 
 Then visit the URL in the output of the 'now --npm' step, in your browser.
 
@@ -191,9 +187,9 @@ Then visit the URL in the output of the 'now --npm' step, in your browser.
 
  > Warning: Docker image is community contributed and may be old with missing security updates, please check version numbers to compare.
 
-[![Docker Automated build](https://img.shields.io/docker/automated/gundb/gun.svg)](https://www.swifttechco.com) [![](https://images.microbadger.com/badges/image/gundb/gun.svg)](https://microbadger.com/images/gundb/gun "Get your own image badge on microbadger.com") [![Docker Pulls](https://img.shields.io/docker/pulls/gundb/gun.svg)](https://www.swifttechco.com) [![Docker Stars](https://img.shields.io/docker/stars/gundb/gun.svg)](https://www.swifttechco.com)
+[![Docker Automated build](https://img.shields.io/docker/automated/gundb/gun.svg)](https://github.com/Swift-Tech-Co/gun) [![](https://images.microbadger.com/badges/image/gundb/gun.svg)](https://microbadger.com/images/gundb/gun "Get your own image badge on microbadger.com") [![Docker Pulls](https://img.shields.io/docker/pulls/gundb/gun.svg)](https://github.com/Swift-Tech-Co/gun) [![Docker Stars](https://img.shields.io/docker/stars/gundb/gun.svg)](https://github.com/Swift-Tech-Co/gun)
 
-Pull from the Docker Hub [![](https://images.microbadger.com/badges/commit/gundb/gun.svg)](https://www.swifttechco.com). Or:
+Pull from the Docker Hub [![](https://images.microbadger.com/badges/commit/gundb/gun.svg)](https://github.com/Swift-Tech-Co/gun). Or:
 
 ```bash
 docker run -p 8765:8765 gundb/gun
@@ -202,7 +198,7 @@ docker run -p 8765:8765 gundb/gun
 Or build the Docker image locally:
 
 ```bash
-git clone https://www.swifttechco.com
+git clone https://github.com/Swift-Tech-Co/gun
 cd gun
 docker build -t myrepo/gundb:v1 .
 docker run -p 8765:8765 myrepo/gundb:v1
@@ -215,7 +211,7 @@ npm run docker
 docker run -p 8765:8765 username/gun:git
 ```
 
-Then visit https://www.swifttechco.com in your browser.
+Then visit https://github.com/Swift-Tech-Co/gun in your browser.
 
 ## License
 
@@ -223,7 +219,7 @@ Designed with ♥ by Mark Nadal, the GUN team, and many amazing contributors.
 
 Openly licensed under Zlib / MIT / Apache 2.0.
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Famark%2Fgun.svg?size=large)](https://www.swifttechco.com)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Famark%2Fgun.svg?size=large)](https://github.com/Swift-Tech-Co/gun)
 
 ---
 
@@ -239,13 +235,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/gun
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [amark/gun](https://github.com/amark/gun) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
